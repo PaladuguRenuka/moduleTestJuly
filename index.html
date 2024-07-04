@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap">
+  <title>Document</title>
+
+  <style>
+    body{
+      background-color: black;
+      font-family: "Inter", sans-serif;
+    }
+    .topMenu{
+      display: flex;
+      justify-content: space-between;
+      color: #B1A592;
+      border: 1px solid #B1A592;
+      border-radius: 50px;
+      padding: 0px;
+      margin: 10px;
+    }
+    .menulist{
+      display: flex;
+      text-align: left;
+    }
+    .contact{
+      border: 1px solid #B1A592;
+      border-radius: 50px;
+      padding: 5px 50px;
+      margin: 2px;
+    }
+    .menu{
+      border-radius: 50px;
+      padding: 5px 50px;
+      margin: 2px;
+    }
+    .company{
+      background: #323025;
+    }
+    .Collections{
+      background: #B1A592;
+      color: #333333;
+    }
+    .list, .events{
+      border: 1px solid #B1A592;
+    }
+    .bottom{
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+      height: 10%;
+    }
+    .mainContent{
+      display: flex;
+      height: 100vh;
+      width: 100vw;
+    }
+    .block1{
+      color:#323025;
+      background-color: #B1A592;
+      border-radius: 30px;
+      padding:10px 10px 0px 10px;
+      margin: 0px 5px 5px 10px;
+      height: 800px;
+      width: 660px;
+    }
+    .image1{
+      width: 100%;
+      height: 79%;
+      border-radius: 20px;
+    }
+    .block2{
+      color: #323025;
+      height: 90vh;
+      width: 950px;
+      margin: 5px;
+    }
+    .block2-0{
+      background-color: #B1A592;
+      color: #333333;
+      border-radius: 30px;
+      height: 250px;
+      width: 680px;
+      padding: 10px;
+    }
+    .block2-1{
+      display: flex;
+      justify-content: space-between;
+    }
+    .image2{
+      padding: 5px;
+      float: right;
+      width: 400px; 
+      height: 180px;
+      border-radius: 30px;
+    }
+    .block2-2{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .lastBlock-1{
+      background-color: #916E58;
+      color: #333333;
+      width: 40%;
+      height: 50vh;
+      gap: 0px;
+      border-radius: 30px;
+      opacity: 0px;
+      padding:10px;
+      margin: 10px, 5px, 10px, 0px;
+    }
+    .image3{
+      height: 30%;
+      width: 100%;
+    }
+    .lastBlock-2{
+      background-color: #B1A48E;
+      border-radius: 30px;
+      padding:10px;
+      width: 50%;
+      height: 60%;
+      top: 480px;
+      left: 1161px;
+      gap: 0px;
+      opacity: 0px;
+      margin: 10px, 0px, 0px, 10px;
+    }
+    .lorem{
+      display: inline-block;
+      padding: 5px 10px;
+      border: 1px solid #333333;
+      border-radius: 50px;
+      margin-top: 10px;
+    }
+    .heading{
+      padding: 5px 0px;
+      margin: 5px 0px;
+      display: block;
+    }
+    p{
+      display: block;
+      padding: 2px 0px;
+      margin: 0px;
+      font-size: small;
+    }
+    .bottom{
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+    }
+    .lastBlock-2{
+      padding: 10px;
+      margin: 10px;
+      height: 500px;
+      
+    }
+    .lastBlock2-2{
+      display: flex;
+      justify-content: space-between;
+    }
+    .image4{
+      width: 80px;
+      border-radius: 50%;
+    }
+    .lastBlock-1{
+      height: 500px;
+      margin-top: 10px;
+    }
+    .last, .third{
+      padding: 10px 0px;
+      margin: 10px 0px;
+    }
+    .image3{
+      border-radius: 30px;
+      padding: 10px 0px;
+      cursor: pointer;
+    }
+    img{
+      width: 100%;
+      transition: 1s all ease-out;
+    }
+    img:hover{
+      transform: scale(1.1);
+    }
+
+  </style>
+</head>
+<body>
+  <header class="topMenu">
+    <div class="menulist">
+      <div class="company menu">Museo Sans</div>
+      <div class="Collections menu">Collections</div>
+      <div class="list menu">Menu</div>
+      <div class="events menu">Events</div>
+    </div>
+    <div class="contact">Contact</div>
+  </header>
+
+  <div class="mainContent">
+    <div class="block1">
+        <div class="lorem">LOREUMIPSUM</div>
+        <H2 class="heading first"><u>Lorem Ipsum Heading</u></H2>
+        <img class="image1" src="https://s3-alpha-sig.figma.com/img/dd77/b915/9bd218bf2e2ad3b90da9abce140d1ba8?Expires=1721001600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jQSBA5n1zOPJ9jSVy1lzLCYK9yN42MgeDdVgbAIErmMX01w9655k9bxSua8q6S9dXbbD0SSjNUDsRxoDTFMdpXomElhWE2pT5Li2KEiTq-UfUW7JUyGl7Yk9hxFPh5xuqHE6qIIWp47HIKaNNw9610i3rop9JDzgkMYF89aumB8VbuPf1BIFb5wfwx-ZOz~4wizyZEvhoVbVY1TesyOEZR~5PsS8YGFFKCtvKrAVCz9Egk2tOODArHzfFOVOa9kmvQAXjLnRJ6DGK3ZcRqOLCaAdrxGTr3oNkyqIaL2C3PRGZ1rB50G4AIeQX5Jo-ug~aJyr6VbIGMcJ322v9elmUQ__">
+        <hr>
+        <div class="bottom">
+        <p>Get Started</p>
+        <span>&#8594;</span>
+        </div>
+    </div>
+    
+    <div class="block2">
+        <div class="block2-0">
+          <div class="block2-1">
+            <div>
+            <div class="lorem">LOREUMIPSUM</div>
+            <H2 class="heading second"><u>Lorem Ipsum Heading</u></H2>
+            <p>Lorem Ipsum text Lorem Ipsum text</p>
+            <p>Lorem Ipsum text Lorem Ipsum text</p>
+            <p>Lorem Ipsum text Lorem Ipsum text</p>
+            </div>
+            <div>
+              <img class="image2" src="https://s3-alpha-sig.figma.com/img/7a05/7321/02ecc2f34052f178793eda90e3be1bd3?Expires=1721001600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OOwbuSaXbX9xbj14AFzHL3BBweaBgb5IMjRmf0~r8e4S8YFXcQlV4X6HcDHsTVUEzmmpnUlHH29IgV2Z7hCBQ2PY3zRBJPbYHie8EzRIXL3-k2uO0hV9rAq1lMcyU~skza7SMoCVRIAzMcjUWTqmgqu2fG-h3gUni~JBqXtY8dqhQGVFzXJdbpvLZFcMJJPuJIbSYKuCq2ysUai8xehsyEa-S98caUwjHa2r9J3yfCULW6GcNTfa88ArG9h-JJRn-ivK4bZhIY3FNXl6h-yjhgZ5vY~KuCc20n9BZ0d3GewwSghk3tPlxlwia5y3bwCsKk35OE9a0Yz5rZ42TZOSfA__">
+            </div>
+          </div>
+            <hr>
+            <div class="bottom">
+              <p>Get Started</p>
+              <span>&#8594;</span>
+              </div>
+        </div>
+        
+        <div class="block2-2">
+                <div class="lastBlock-1">
+                    <img class="image3" src="https://s3-alpha-sig.figma.com/img/bcfd/ff4d/3ab4aa39f45b58c07736be0cbdee0039?Expires=1721001600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gNNwljG7GlkS4k2FVKj-i5iLN1i7wne~afCXApzRozkAueQriIE8TCSX6CWpN1pktiN3ksztXcTu7pRayvUVukyPBPjB7QcbxxWexHYCiT0fjtYVHhn6NGVGGSQUkikyOy0s6GFr4jHbuMC8ABb3FzxgfJ519C~45wgRIhsoLIg7tEcs1x1MO2fkNPQj1riKj5vHyEOhySG5-4uLPAnCXtBtUdqrWofoaQu2D9fddwPKdR4IU70rtZEYuuq0djNOYkcleeK1X3A2H-PsnQi1qgdTZufKNn9nhv-Z9xQJLi3Zs0RYpkWvhcM0XglikcoOy5MKMJ1NEuudgU7FaRys7Q__">
+                    <h2 class="heading third"><u>Potarit</u></h2>
+                    <p>Lorem Ipsum text Lorem Ipsum text</p>
+                    <p>Lorem Ipsum text Lorem Ipsum text</p>
+                    <p>Lorem Ipsum text Lorem Ipsum text</p>
+                    <p>Lorem Ipsum text Lorem Ipsum text</p>
+                    <p>Lorem Ipsum text Lorem Ipsum text</p>
+                    <p>Lorem Ipsum text Lorem Ipsum text</p>
+                    <p>Lorem Ipsum text Lorem Ipsum text</p>
+                    <p>Lorem Ipsum text Lorem Ipsum text</p>
+                    <p>Lorem Ipsum text Lorem Ipsum text</p>
+                    <p>Lorem Ipsum text Lorem Ipsum text</p>
+                    <hr>
+                    <div class="bottom">
+                      <p>Get Started</p>
+                      <span>&#8594;</span>
+                      </div>
+                </div>
+                
+                <div class="lastBlock-2">
+                  <div class="lastBlock2-2">
+                  <div>
+                    <div class="lorem">LOREUMIPSUM</div>
+                    <h2 class="heading last"><u>Potarit</u></h2>
+                    <p>Lorem Ipsum text Lorem Ipsum text</p>
+                    <p>Lorem Ipsum text Lorem Ipsum text</p>
+                    <p>Lorem Ipsum text Lorem Ipsum text</p>
+                    <p>Lorem Ipsum text Lorem Ipsum text</p>
+                    <p>Lorem Ipsum text Lorem Ipsum text</p>
+                    <p>Lorem Ipsum text Lorem Ipsum text</p>
+                    <p>Lorem Ipsum text Lorem Ipsum text</p>
+                    <p>Lorem Ipsum text Lorem Ipsum text</p>
+                    <p>Lorem Ipsum text Lorem Ipsum text</p>
+                    <p>Lorem Ipsum text Lorem Ipsum text</p>
+                    <p>Lorem Ipsum text Lorem Ipsum text</p>
+                    <p>Lorem Ipsum text Lorem Ipsum text</p>
+                    <p>Lorem Ipsum text Lorem Ipsum text</p>
+                    <p>Lorem Ipsum text Lorem Ipsum text</p>
+                    <p>Lorem Ipsum text Lorem Ipsum text</p>
+                    <p>Lorem Ipsum text Lorem Ipsum text</p>
+                    <p>Lorem Ipsum text Lorem Ipsum text</p>
+                  
+                  </div>
+                  <div>
+                    <img class="image4" src="https://s3-alpha-sig.figma.com/img/7926/ae8d/c1102600cf253f254f2bd57b7b254745?Expires=1721001600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CRi8QxXNAA6kcQH833kO42vnW5Hko9trDavKHQEU-RVG-unrVXENNafhPFyQr-WhQm67uj1GPP7SUlFHHMMv077te314AVMYv27D0ZozlHrWZ6vpeDA2zqKfXGh2JH3JwiEBrlVi9k2wojhHe-cqwPcxCC5K6SQO9Y-JQJ64xqfMRir9eVntbyzlzRXd0bRHM3bN0OToXTAA4KbbFZu2Wgo22~gv1zmegFl6BlwBf4oOK9mV3lEoKDcwjMGKJwUcGZugdYREH0bW325Ik0ig-QHYGdgtuuRo0NWgrp-D7zZXRJJsYfSuAdvj0gDx7inZ9cMXtyAhfBH0m~4N0ey2ag__">
+                  </div>
+                  </div>
+                    <hr>
+                    <div class="bottom">
+                      <p>Get Started</p>
+                      <span>&#8594;</span>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
